@@ -2,7 +2,7 @@
   "name": "co12c-e3262d5c187d",
   "dependencies": {
     "react": "16.4.0",
-    "react-dom": "16.4.0"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "webpack": "^2.0",
