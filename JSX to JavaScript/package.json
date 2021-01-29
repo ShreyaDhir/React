@@ -1,6 +1,7 @@
 {
   "name": "co628-a4600ab97889",
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "react": "16.4.0",
     "react-dom": "^17.0.1"
   },
