@@ -1,24 +1,28 @@
-/* 
-Given a list of products (as an array of objects, as seen in productsData.js)
-render a <Product /> component (which you'll also need to create) for each
-product in the list.
+import React from "react"
 
-Make sure to use the array's `.map()` method to create these components, and 
-don't forget to pass a `key` prop to it to avoid the warning.
-*/
+import Joke from "./Joke"
+import jokesData from "./jokesData"
 
-import React from "react";
-import Products from "./Products";
-import productsData from "./vschoolProducts";
-
-function App() {
-    const productsComponents = productsData.map(items => <Products key={items.id} products = {items} />); 
+function App(){
+    const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.ounchline} />)
     
-  return (
-    <div>
-      {productsComponents}  
-    </div>
-  )
+    return (
+        <div>
+            {jokeComponents}            
+        </div>
+    )
 }
 
 export default App
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
+
+// function App() {
+//  

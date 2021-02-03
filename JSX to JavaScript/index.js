@@ -2,9 +2,18 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 function App(){
-  const date = new Date()
+  const date = new Date();
+  const hours = date.getHours();
+  let timeOfDay;
+
+  if(hours < 12)
+    timeOfDay = "Morning";
+  else if(hours <= 12 && hours > 17)
+    timeOfDay = "Evening";
+  else
+    timeOfDay = "Night";
   
-  return (<p> It is currently {date.getHours() % 12} hours</p>)
+  return (<p> Good {timeOfDay}!</p>)
 }
 
 ReactDOM.render(<App />, document.getElementById("root"))
