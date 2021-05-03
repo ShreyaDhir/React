@@ -1,0 +1,38 @@
+{
+  "stories": [
+    {
+      "title": "react adventure",
+      "created": 1619889333431,
+      "submissionHistory": {},
+      "versions": [
+        "ecdf6038-f576-4be1-9a90-fb92404a5492"
+      ],
+      "id": "6dc4803b-eb3c-4e65-a823-7d9eb884178f"
+    }
+  ],
+  "versions": [
+    {
+      "storyId": "6dc4803b-eb3c-4e65-a823-7d9eb884178f",
+      "name": "draft",
+      "wordCount": 43,
+      "created": 1619889333432,
+      "statistics": {},
+      "id": "ecdf6038-f576-4be1-9a90-fb92404a5492",
+      "modified": 1619889446231
+    }
+  ],
+  "backups": [],
+  "activity": [
+    {
+      "date": "2021-05-01",
+      "entries": [
+        {
+          "storyId": "6dc4803b-eb3c-4e65-a823-7d9eb884178f",
+          "wordCount": 43,
+          "initialWordCount": 0
+        }
+      ],
+      "id": "9c081b1b-804c-4e9d-bb15-cdf250594f0b"
+    }
+  ]
+}
